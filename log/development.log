@@ -1258,3 +1258,10 @@ puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
   Rendering /Users/owenabbott/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /Users/owenabbott/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
   Rendered /Users/owenabbott/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.2ms)
+Started GET "/about" for ::1 at 2020-03-13 12:02:36 -0500
+Processing by StaticController#about as HTML
+  Rendering static/about.html.erb
+  Rendered static/about.html.erb (1.2ms)
+Completed 200 OK in 10ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
